@@ -12,10 +12,10 @@ const { route } = require('express/lib/application');
 
 //Insiasi koneksi ke database
 const db = new Client({
-    user: 'airell_sbd',
-    host: 'airell-sbd.postgres.database.azure.com',
-    database: 'bookbookeverywhere',
-    password: 'Admin1811',
+    user: '', //username here
+    host: '', //hostname here
+    database: '', //database name here
+    password: '', //database password here
     port: 5432,
     sslmode: 'require',
     ssl: true,
